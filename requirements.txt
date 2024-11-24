@@ -1,6 +1,6 @@
-ollama # Local inference
-chromadb # Vector Database
-sentence-transformers # CrossEncoder Re-ranking
-streamlit # Application UI
-PyMuPDF # PDF Document loader
-langchain-community # Utils for text splitting
+streamlit==1.25.0  # Streamlit latest stable version
+chromadb==0.4.2    # Ensure it's compatible with Streamlit hosting
+sentence-transformers==2.2.2  # Stable version for re-ranking
+PyMuPDF==1.21.1    # PDF processing
+langchain-community==0.0.14  # Utils for text splitting
+ollama  # Include if you're running the local Ollama server
